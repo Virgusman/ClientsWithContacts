@@ -1,4 +1,4 @@
-package ru.virgusman.springcourse.ClietsWithContacts.Errors;
+package ru.virgusman.springcourse.ClietsWithContacts.errors;
 
 public class ContactNotValidException extends RuntimeException{
     public ContactNotValidException(String msg) {

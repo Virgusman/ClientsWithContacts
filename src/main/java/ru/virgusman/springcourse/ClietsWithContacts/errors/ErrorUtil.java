@@ -1,4 +1,4 @@
-package ru.virgusman.springcourse.ClietsWithContacts.Errors;
+package ru.virgusman.springcourse.ClietsWithContacts.errors;
 
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;

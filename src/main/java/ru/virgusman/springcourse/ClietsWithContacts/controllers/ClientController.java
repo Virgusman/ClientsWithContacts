@@ -12,14 +12,14 @@ import ru.virgusman.springcourse.ClietsWithContacts.DTO.ClientDTO;
 import ru.virgusman.springcourse.ClietsWithContacts.DTO.ClientResponse;
 import ru.virgusman.springcourse.ClietsWithContacts.DTO.ContactDTO;
 import ru.virgusman.springcourse.ClietsWithContacts.DTO.ContactResponse;
-import ru.virgusman.springcourse.ClietsWithContacts.Errors.ClientNotFoundException;
-import ru.virgusman.springcourse.ClietsWithContacts.Errors.ContactNotValidException;
-import ru.virgusman.springcourse.ClietsWithContacts.Errors.ErrorResponse;
-import ru.virgusman.springcourse.ClietsWithContacts.Errors.NotCreatedException;
+import ru.virgusman.springcourse.ClietsWithContacts.errors.ClientNotFoundException;
+import ru.virgusman.springcourse.ClietsWithContacts.errors.ContactNotValidException;
+import ru.virgusman.springcourse.ClietsWithContacts.errors.ErrorResponse;
+import ru.virgusman.springcourse.ClietsWithContacts.errors.NotCreatedException;
 import ru.virgusman.springcourse.ClietsWithContacts.services.ClientService;
 import ru.virgusman.springcourse.ClietsWithContacts.validators.ClientValidator;
 
-import static ru.virgusman.springcourse.ClietsWithContacts.Errors.ErrorUtil.returnErrors;
+import static ru.virgusman.springcourse.ClietsWithContacts.errors.ErrorUtil.returnErrors;
 
 @RestController
 @RequestMapping("/client")

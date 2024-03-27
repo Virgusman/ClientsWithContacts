@@ -1,4 +1,4 @@
-package ru.virgusman.springcourse.ClietsWithContacts.Errors;
+package ru.virgusman.springcourse.ClietsWithContacts.errors;
 
 import lombok.Getter;
 import lombok.Setter;
