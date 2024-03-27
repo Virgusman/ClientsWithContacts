@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ru.virgusman.springcourse</groupId>
-	<artifactId>ClietsWithContacts</artifactId>
+	<artifactId>ClientsWithContacts</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ClietsWithContacts</name>
 	<description>Test case for Unibell</description>
