@@ -3,7 +3,7 @@ package ru.virgusman.springcourse.ClietsWithContacts.validators;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
-import ru.virgusman.springcourse.ClietsWithContacts.DTO.ClientDTO;
+import ru.virgusman.springcourse.ClietsWithContacts.dto.ClientDTO;
 import ru.virgusman.springcourse.ClietsWithContacts.models.Client;
 import ru.virgusman.springcourse.ClietsWithContacts.services.ClientService;
 

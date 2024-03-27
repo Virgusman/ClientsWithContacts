@@ -1,4 +1,4 @@
-package ru.virgusman.springcourse.ClietsWithContacts.DTO;
+package ru.virgusman.springcourse.ClietsWithContacts.dto;
 
 import lombok.Getter;
 
